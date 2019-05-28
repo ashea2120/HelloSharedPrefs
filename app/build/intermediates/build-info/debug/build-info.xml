@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1558885766915"
+    timestamp="1559065116696"
     token="-9175686814779116090"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,8 +25,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1558885660443"
+        timestamp="1559065086467"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Ashley\AndroidStudioProjects\android-fundamentals-starter-apps-v2-master\HelloSharedPrefs\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Ashley\AndroidStudioProjects\android-fundamentals-starter-apps-v2-master\HelloSharedPrefs\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
@@ -61,24 +64,12 @@
             location="C:\Users\Ashley\AndroidStudioProjects\android-fundamentals-starter-apps-v2-master\HelloSharedPrefs\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Ashley\AndroidStudioProjects\android-fundamentals-starter-apps-v2-master\HelloSharedPrefs\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Ashley\AndroidStudioProjects\android-fundamentals-starter-apps-v2-master\HelloSharedPrefs\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1558885753794"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Ashley\AndroidStudioProjects\android-fundamentals-starter-apps-v2-master\HelloSharedPrefs\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1558885766915"
+        timestamp="1559065116696"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

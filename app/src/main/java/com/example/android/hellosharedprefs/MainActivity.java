@@ -79,24 +79,11 @@ public class MainActivity extends AppCompatActivity {
         mColor = color;
     }
 
-    /**
-     * Handles the onClick for the Count button. Increments the value of the
-     * mCount global and updates the TextView.
-     *
-     * @param view The view (Button) that was clicked.
-     */
     public void countUp(View view) {
         mCount++;
         mShowCountTextView.setText(String.format("%s", mCount));
     }
 
-    /**
-     * Saves the instance state if the activity is restarted (for example,
-     * on device rotation.) Here you save the values for the count and the
-     * background color.
-     *
-     * @param outState The state data.
-     */
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -105,13 +92,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt(COLOR_KEY, mColor);
     }
 
-    /**
-     * Handles the onClick for the Reset button. Resets the global count and
-     * background variables to the defaults and resets the views to those
-     * default values.
-     *
-     * @param view The view (Button) that was clicked.
-     */
     public void reset(View view) {
         // Reset count
         mCount = 0;
